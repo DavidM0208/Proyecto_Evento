@@ -21,7 +21,7 @@ body {
     justify-content: space-around;
 }
 
-.titulo_imagen h2{
+.titulo_imagen h2 {
     margin-top: 10px;
 }
 
@@ -45,6 +45,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .formulario input {
     border: 1px solid lightblue;
     border-radius: 10px;
@@ -73,4 +74,63 @@ body {
 .derechos_autor a {
     font-size: 10px;
     margin-top: 10px;
+}
+
+.lista_eventos_2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: auto;
+    box-shadow: inset 0px 0px 20px 5px black;
+}
+
+.evento {
+    display: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    width: 600px;
+}
+
+.dias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.dias_faltantes {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre_evento {
+    width: 100px;
+    height: 50px;
+    overflow: auto;
+}
+
+.eliminar {
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background: #39ff76;
+    cursor: pointer;
+}
+
+.eliminar:hover {
+    background: red;
 }

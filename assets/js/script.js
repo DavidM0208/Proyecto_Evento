@@ -46,50 +46,6 @@ function diferencia_fecha(destino) {
 function mostrar_evento() {
     const evento_HTML = eventos.map((evento) => {
         return `
-            <style>
-                .evento {
-                    display: flex;
-                    justify-content: space-between;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 5rem;
-                    border: 2px solid black;
-                    border-radius: 20px;
-                    padding: 20px;
-                    margin: 10px;
-                    width: 600px;
-                }
-                .dias {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    margin-left: 10px;
-                    border-radius: 10px;
-                }
-                .dias_faltantes {
-                    color: white;
-                    font-size: 1.5rem;
-                }
-                .texto {
-                    display: flex;
-                    flex-direction: column;
-                }
-                .nombre_evento {
-                    width: 100px;
-                }
-                .eliminar {
-                    border: none;
-                    width: 100px;
-                    height: 50px;
-                    border-radius: 5px;
-                    background: #39ff76;
-                    cursor: pointer; 
-                }
-                .eliminar:hover {
-                    background: red;
-                }
-            </style>
             <div class="caja_principal">
                 <div class="evento">
                     <div class="dias">
